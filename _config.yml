@@ -1,2 +1,4 @@
 name: Eyes of Silva Photography
 markdown: kramdown
+gems:
+  - jekyll-sitemap
