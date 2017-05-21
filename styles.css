@@ -71,6 +71,7 @@ footer ul li a {
 /* ID */
 #Logo {
 	text-align: center;
+	padding: 20px 0;
 }
 
 #Body {
@@ -192,9 +193,5 @@ header nav ul li {
 
 header nav ul li:last-child {
 	padding-right: 0;
-}
-
-#Logo {
-	float: left;
 }
 }
