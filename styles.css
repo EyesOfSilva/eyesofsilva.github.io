@@ -93,77 +93,9 @@ footer ul li a {
 	text-decoration: underline;
 }
 
-/* Classes */
-.entry-header {
-	padding-bottom:1.500em;
-	text-align:center;
-	background:#1f1e1e;
-}
-
-.entry-content {
-	overflow: auto;
-}
-
-/* Gallery styling */
-.gallery-icon {
-	float:left;
-}
-
-/* Contact form styling */
-#Form {
-	clear:both;
-	overflow:auto;
-}
-
-#FormLeft, #FormRight {
-	display:inline-block;
-	float:left;
-}
-
-#FormLeft {
-	padding-right:4em;
-}
-
-.wpcf7-form {
-	overflow:auto;
-}
-
-.entry-content input {
-	background:none;
-	border:none;
-	border-bottom:1px #a8a392 solid;
-}
-
-.wpcf7-submit {
-	border:1px #a8a392 solid !important;
-	padding:0.625em 0.938em;
-}
-
-.screen-reader-response {
-	text-decoration:underline;
-	font-weight:bold;
-}
-
 /* Additional media queries for larger displays */
 /* tablets - portrait */
 @media screen and (min-width: 600px) {
-header nav ul {
-	padding: 10px 0;
-}
-header nav ul li {
-	display: inline;
-	padding: 10px 20px;
-}
-footer ul {
-	margin-left: 5px;
-}
-
-footer ul li:last-child {
-	padding-right: 0;
-}
-footer ul li:first-child {
-	border-left: #a8a392 1px solid;
-}
 
 /* tablets - landscape */
 @media screen and (min-width: 800px) {
@@ -172,26 +104,10 @@ footer ul li:first-child {
 
 /* desktops*/
 @media screen and (min-width: 1025px) {
-nav {
-	overflow: auto;
-	margin-top: 107px;
-}
 
 header {
 	overflow: auto;
 	padding: 0 10%;
 	max-width: 80%;
-}
-
-header nav ul {
-	float: right;
-}
-
-header nav ul li {
-	padding-right: 65px;
-}
-
-header nav ul li:last-child {
-	padding-right: 0;
 }
 }
