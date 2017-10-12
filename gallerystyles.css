@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	text-align: center;
 	overflow: hidden;
+	padding-left: 0;
 }
 
 .Album li {
