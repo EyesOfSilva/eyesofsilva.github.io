@@ -9,12 +9,16 @@ Version: 1.2
 /* Tags */
 body {
 	font-size: 100%;
-	background:#1f1e1e;
+	background: #1f1e1e;
 }
 
 body, a, h1, h2, h3, h4, h5, h6 {
-	color:#a8a392;
-	font-family:"Times New Roman", Times, serif;
+	color: #a8a392;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	text-align: center;
 }
 
 header {
@@ -94,9 +98,9 @@ footer ul li a {
 
 /* Classes */
 .entry-header {
-	padding-bottom:1.500em;
-	text-align:center;
-	background:#1f1e1e;
+	padding-bottom: 1.500em;
+	text-align: center;
+	background: #1f1e1e;
 }
 
 .entry-content {
@@ -105,42 +109,7 @@ footer ul li a {
 
 /* Gallery styling */
 .gallery-icon {
-	float:left;
-}
-
-/* Contact form styling */
-#Form {
-	clear:both;
-	overflow:auto;
-}
-
-#FormLeft, #FormRight {
-	display:inline-block;
-	float:left;
-}
-
-#FormLeft {
-	padding-right:4em;
-}
-
-.wpcf7-form {
-	overflow:auto;
-}
-
-.entry-content input {
-	background:none;
-	border:none;
-	border-bottom:1px #a8a392 solid;
-}
-
-.wpcf7-submit {
-	border:1px #a8a392 solid !important;
-	padding:0.625em 0.938em;
-}
-
-.screen-reader-response {
-	text-decoration:underline;
-	font-weight:bold;
+	float: left;
 }
 
 /* Additional media queries for larger displays */
