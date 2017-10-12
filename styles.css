@@ -107,6 +107,10 @@ footer ul li a {
 	overflow: auto;
 }
 
+.PostDate {
+	text-decoration: underline;
+}
+
 /* Gallery styling */
 .gallery-icon {
 	float: left;
