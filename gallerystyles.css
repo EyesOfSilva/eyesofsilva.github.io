@@ -36,7 +36,7 @@
 	font-size: 24px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+    	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	background: rgb(168,163,146);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(168,163,146,1) 100%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(168,163,146,1)));
@@ -54,7 +54,7 @@
 .Album li > a:hover span {
 	opacity: 1;
 	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+    	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
 
 .Modal {
@@ -68,12 +68,12 @@
 	z-index: 99;
 	text-align: center;
 	background: rgb(168,163,146);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(168,163,146,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(168,163,146,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(168,163,146,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(168,163,146,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(168,163,146,1) 100%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(168,163,146,1) 100%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(000,000,0.33,0.33) 0%, rgba(000,000,000,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(000,000,0.33,0.33)), color-stop(100%,rgba(000,000,000,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(000,000,0.33,0.33) 0%,rgba(000,000,000,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(000,000,0.33,0.33) 0%,rgba(000,000,000,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(000,000,0.33,0.33) 0%,rgba(000,000,000,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(000,000,0.33,0.33) 0%,rgba(000,000,000,1) 100%);
 }
 
 .Modal > div {
@@ -81,7 +81,7 @@
 	color: rgba(27,54,81,0.8);
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+    	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	width: 550px;
 	margin: 10px auto 0px auto;
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
@@ -124,7 +124,6 @@
 
 .Modal a.Close {
 	z-index: 1001;
-	color: #1f1e1e;
 	position: absolute;
 	top: 43px;
 	left: 50%;
@@ -137,7 +136,7 @@
 	margin-left: -25px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+    	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	-webkit-transition: opacity 0.3s linear 1.2s;
 	-moz-transition: opacity 0.3s linear 1.2s;
 	-o-transition: opacity 0.3s linear 1.2s;
@@ -173,32 +172,32 @@
 .Modal:target a.Close, .Modal:target > div {
 	opacity: 1;
 	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+    	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
 
 @-webkit-keyframes fadeInScale {
-  0% { -webkit-transform: scale(0.6); opacity: 0; }
-  100% { -webkit-transform: scale(1); opacity: 1; }
+	0% { -webkit-transform: scale(0.6); opacity: 0; }
+	100% { -webkit-transform: scale(1); opacity: 1; }
 }
 
 @-moz-keyframes fadeInScale {
-  0% { -moz-transform: scale(0.6); opacity: 0; }
-  100% { -moz-transform: scale(1); opacity: 1; }
+	0% { -moz-transform: scale(0.6); opacity: 0; }
+	100% { -moz-transform: scale(1); opacity: 1; }
 }
 
 @-o-keyframes fadeInScale {
-  0% { -o-transform: scale(0.6); opacity: 0; }
-  100% { -o-transform: scale(1); opacity: 1; }
+	0% { -o-transform: scale(0.6); opacity: 0; }
+	100% { -o-transform: scale(1); opacity: 1; }
 }
 
 @-ms-keyframes fadeInScale {
-  0% { -ms-transform: scale(0.6); opacity: 0; }
-  100% { -ms-transform: scale(1); opacity: 1; }
+	0% { -ms-transform: scale(0.6); opacity: 0; }
+	100% { -ms-transform: scale(1); opacity: 1; }
 }
 
 @keyframes fadeInScale {
-  0% { transform: scale(0.6); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+	0% { transform: scale(0.6); opacity: 0; }
+	100% { transform: scale(1); opacity: 1; }
 }
 
 /* 
@@ -206,5 +205,5 @@
 	http://bricss.net/post/11230266445/css-hack-to-target-opera 
 */
 x:-o-prefocus, .Modal img {
-    height: 100%;
+	height: 100%;
 }
