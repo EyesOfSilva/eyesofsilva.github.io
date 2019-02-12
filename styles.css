@@ -7,6 +7,10 @@ Version: 1.2
 */
 
 /* Tags */
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-size: 100%;
 	background: #1f1e1e;
